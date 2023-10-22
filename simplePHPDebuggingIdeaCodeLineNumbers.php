@@ -5,6 +5,12 @@
         See the use of __LINE__.
 
     */
+
+    // See:
+    // https://www.php.net/manual/en/function.date-default-timezone-set.php
+    //
+    date_default_timezone_set('Europe/Dublin');
+
     function displayCurrentDateTime(){
         echo 'It\'s currently ' . Date('Y-m-d H:i.s') . '<br/>';
     }
